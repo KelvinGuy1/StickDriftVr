@@ -30,8 +30,15 @@ git clone https://github.com/KelvinGuy1/StickDriftVr/
 cd StickDriftVr
 sh build.sh
 ```
-#### Windows
-(coming soon)
+#### Windows (untested)
+```bash
+git clone https://github.com/KelvinGuy1/StickDriftVr/
+cd StickDriftVr
+mkdir build
+cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make -j4
+```
 
 ## 🤝 Contribute
 StickDriftVr is currently being developed by one guy. I am not taking donations at this time so for now, any help is welcome through the following:
