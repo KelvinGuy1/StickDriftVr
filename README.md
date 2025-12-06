@@ -9,9 +9,9 @@ A Free Open Source Steam VR Driver for NS Joycon support
 
 This project embraces openness with no paywalls, no proprietary apps, and no restrictions on how you use or modify it.
 
-#####⚠️ Warning: Early Development Status - *This project is in a **very early and experimental state**. Calibration is currently **broken**, and you should expect **significant bugs, tracking issues, and drift** during use.  Nothing is guaranteed to work reliably yet. If you're concerned something happened to your joycons, attach them to your switch, recalibrate, and re-add them with your pc.*
+##### ⚠️ Warning: Early Development Status - *This project is in a **very early and experimental state**. Calibration is currently **broken**, and you should expect **significant bugs, tracking issues, and drift** during use.  Nothing is guaranteed to work reliably yet. If you're concerned something happened to your joycons, attach them to your switch, recalibrate, and re-add them with your pc.*
 
-##🟥🟦 Features (Work In Progress)
+## 🟥🟦 Features (Work In Progress)
 
 - Full Nintendo Switch Joy-Con Support (Left, Right, paired mode) - **WIP**
 - SteamVR-Compatible Motion Tracking using built-in IMU sensors (Gyroscope + Accelerometer Fusion) - **WIP**
@@ -20,7 +20,7 @@ This project embraces openness with no paywalls, no proprietary apps, and no res
 - Cross-Platform support - **WIP**
 - Haptic Feedback Support - **Not started**
 
-##🛠️ Build
+## 🛠️ Build
 
 #### Linux
 It's reccomended you have the [joycond](https://github.com/DanielOgorchock/joycond "joycond") daemon installed to pair the controlers together as one.
@@ -30,7 +30,7 @@ git clone https://github.com/KelvinGuy1/StickDriftVr/
 cd StickDriftVr
 sh build.sh
 ```
-####Windows
+#### Windows
 (coming soon)
 
 ## 🤝 Contribute
