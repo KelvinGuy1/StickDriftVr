@@ -1,0 +1,87 @@
+{
+	"jsonid": "input_profile",
+	"controller_type": "mycontroller",
+	"device_class" : "TrackedDeviceClass_Controller",
+	"input_bindingui_mode": "controller_handed",
+	"legacy_binding" :  "{simplecontroller}/input/mycontroller_legacy.json",
+	"input_bindingui_left": {
+		"image": "{simplecontroller}/icons/sample_controller.svg"
+	},
+	"input_bindingui_right": {
+		"image": "{simplecontroller}/icons/sample_controller.svg"
+	},
+	"input_source": {
+		"/input/a": {
+			"binding_image_point": [ 80, 60 ],
+			"type": "button",
+			"touch": true,
+			"order": 1
+		},
+		"/input/b": {
+			"binding_image_point": [ 100, 60 ],
+			"type": "button",
+			"touch": true,
+			"order": 2
+		},
+		"/input/x": {
+			"binding_image_point": [ 120, 60 ],
+			"type": "button",
+			"touch": true,
+			"order": 3
+		},
+		"/input/y": {
+			"binding_image_point": [ 140, 60 ],
+			"type": "button",
+			"touch": true,
+			"order": 4
+		},
+		"/input/plus_minus": {
+			"binding_image_point": [ 160, 60 ],
+			"type": "button",
+			"touch": true,
+			"order": 5
+		},
+		"/input/capture": {
+			"binding_image_point": [ 180, 60 ],
+			"type": "button",
+			"touch": true,
+			"order": 6
+		},
+		"/input/sl": {
+			"binding_image_point": [ 200, 60 ],
+			"type": "button",
+			"touch": true,
+			"order": 7
+		},
+		"/input/sr": {
+			"binding_image_point": [ 220, 60 ],
+			"type": "button",
+			"touch": true,
+			"order": 8
+		},
+		"/input/stick": {
+			"binding_image_point": [ 260, 60 ],
+			"type": "joystick",
+			"order": 9
+		},
+		"/input/trigger": {
+			"binding_image_point": [ 300, 60 ],
+			"type": "trigger",
+			"order": 10
+		},
+		"/input/z_trigger": {
+			"binding_image_point": [ 360, 60 ],
+			"type": "trigger",
+			"order": 11
+		},
+		"/output/haptic": {
+			"binding_image_point": [ 300, 150 ],
+			"type": "vibration",
+			"order": 12
+		}
+		"/pose/raw" : {
+        "type" : "pose",
+        "binding_image_point" : [ 14, 16 ]
+		},
+	}
+}
