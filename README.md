@@ -30,7 +30,7 @@ git clone https://github.com/KelvinGuy1/StickDriftVr/
 cd StickDriftVr
 sh build.sh
 ```
-#### Windows (untested)
+#### Windows (untested, gcc required)
 ```bash
 git clone https://github.com/KelvinGuy1/StickDriftVr/
 cd StickDriftVr
