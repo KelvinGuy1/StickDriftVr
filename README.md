@@ -5,7 +5,7 @@ A Free Open Source Steam VR Driver for NS Joycon support
 
 <sup>Xenia logo by QuestForTori - Modified by Mentalbox<sup/>
 
-**StickDriftVr** is an **open-source Nintendo Switch Joy-Con driver for SteamVR**, created to give users a **free** (both in cost and use) way to use Joy-Con controllers in virtual reality.
+**StickDriftVr** is an **open-source Nintendo Switch Joy-Con driver for SteamVR** based on OpenVR's [simple controller driver](https://github.com/ValveSoftware/openvr/tree/master/samples/drivers/drivers/simplecontroller "simple controller driver") example, created to give users a **free** (both in cost and use) way to use Joy-Con controllers in virtual reality.
 
 This project embraces openness with no paywalls, no proprietary apps, and no restrictions on how you use or modify it.
 
@@ -39,15 +39,15 @@ StickDriftVr is currently being developed by one guy. I am not taking donations 
 - Issue reports
 - Documentation contributions
 - Platform support testing
-- Your contributions help keep this software free for everyone, forever.
+
+Your contributions will help keep this project running!
 
 ## 📝 TODO
 - Better integrate libjoycon into the repo and phase cloning out from CMakeLists.txt
 - Fork internal patches of libjoycon to official repo
-- Add Windows build support
-- Create a Windows buildfile
+- Create a Windows buildfile and add Windows build support
 - Reduce IMU drift
 - Add reset/recenter controls
 - Fix Joy-Con calibration retrieval on mount
-- Phase out AI code, unused functions
+- Phase out AI code, unused functions, and valve code
 - Fix commenting issues
