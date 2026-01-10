@@ -1,6 +1,18 @@
 echo Cleaning up...
 rm -rf build
 
+if [ ! -d "lib" ]; then
+    if [ ! -d "external/openvr" ]; then
+        git submodule update --init --recursive
+        if [ ! -d "external/openvr" ]; then
+            echo "Failed to clone submodules. Exiting."
+            exit 1
+        fi
+    fi
+    mkdir lib
+    cp -r external/openvr/lib/* lib/
+fi
+
 echo Creating build directory...
 mkdir build
 cd build
