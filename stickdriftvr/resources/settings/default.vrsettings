@@ -1,12 +1,12 @@
 {
-   "driver_simplecontroller" : {
+   "driver_stickdriftvr" : {
       "enable" : true,
       "mycontroller_model_number" : "MyControllerModelNumber 1"
    },
-   "driver_simplecontroller_left_controller": {
+   "driver_stickdriftvr_left_controller": {
       "mycontroller_serial_number": "MyLeftControllerABC123"
    },
-   "driver_simplecontroller_right_controller": {
+   "driver_stickdriftvr_right_controller": {
       "mycontroller_serial_number": "MyRightControllerXYZ789"
    }
 }

@@ -5,7 +5,7 @@ A Free Open Source Steam VR Driver for NS Joycon support
 
 <sup>Xenia logo by QuestForTori - Modified by Mentalbox<sup/>
 
-**StickDriftVr** is an **open-source Nintendo Switch Joy-Con driver for SteamVR** based on OpenVR's [simple controller driver](https://github.com/ValveSoftware/openvr/tree/master/samples/drivers/drivers/simplecontroller "simple controller driver") example, created to give users a **free** (both in cost and use) way to use Joy-Con controllers in virtual reality.
+**StickDriftVr** is an **open-source Nintendo Switch Joy-Con driver for SteamVR** based on OpenVR's [simple controller driver](https://github.com/ValveSoftware/openvr/tree/master/samples/drivers/drivers/stickdriftvr "simple controller driver") example, created to give users a **free** (both in cost and use) way to use Joy-Con controllers in virtual reality.
 
 This project embraces openness with no paywalls, no proprietary apps, and no restrictions on how you use or modify it.
 

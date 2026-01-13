@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.7.1)
 
 # This is your project name
-set(TARGET_NAME simplecontroller)
+set(TARGET_NAME stickdriftvr)
 
 # This is the name of the driver according to SteamVR
 set(DRIVER_NAME "driver_${TARGET_NAME}")
@@ -143,7 +143,7 @@ target_include_directories(${DRIVER_NAME} PRIVATE ${OPENVR_INCLUDE_DIR} ${CMAKE_
 
 
 
-# Set the output name of the driver to "driver_simplecontroller" instead of "libdriver_simplecontroller"
+# Set the output name of the driver to "driver_stickdriftvr" instead of "libdriver_stickdriftvr"
 set_target_properties(${DRIVER_NAME} PROPERTIES PREFIX "")
 add_custom_command(
     TARGET ${DRIVER_NAME}

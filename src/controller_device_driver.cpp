@@ -14,11 +14,11 @@
 // This is the section where all of the settings we want are stored. A section name can be anything,
 // but if you want to store driver specific settings, it's best to namespace the section with the driver identifier
 // ie "<my_driver>_<section>" to avoid collisions
-static const char *my_controller_main_settings_section = "driver_simplecontroller";
+static const char *my_controller_main_settings_section = "driver_stickdriftvr";
 
 // Individual right/left hand settings sections
-static const char *my_controller_right_settings_section = "driver_simplecontroller_left_controller";
-static const char *my_controller_left_settings_section = "driver_simplecontroller_right_controller";
+static const char *my_controller_right_settings_section = "driver_stickdriftvr_left_controller";
+static const char *my_controller_left_settings_section = "driver_stickdriftvr_right_controller";
 
 // These are the keys we want to retrieve the values for in the settings
 static const char *my_controller_settings_key_model_number = "mycontroller_model_number";
@@ -89,7 +89,7 @@ vr::EVRInitError MyControllerDeviceDriver::Activate( uint32_t unObjectId )
 	// As well as what default bindings should be for legacy apps.
 	// Note, we can use the wildcard {<driver_name>} to match the root folder location
 	// of our driver.
-	vr::VRProperties()->SetStringProperty( container, vr::Prop_InputProfilePath_String, "{simplecontroller}/input/mycontroller_profile.json" );
+	vr::VRProperties()->SetStringProperty( container, vr::Prop_InputProfilePath_String, "{stickdriftvr}/input/mycontroller_profile.json" );
 
 	// Let's set up handles for all of our components.
 	// Even though these are also defined in our input profile,

@@ -3,12 +3,12 @@
 	"controller_type": "mycontroller",
 	"device_class" : "TrackedDeviceClass_Controller",
 	"input_bindingui_mode": "controller_handed",
-	"legacy_binding" :  "{simplecontroller}/input/mycontroller_legacy.json",
+	"legacy_binding" :  "{stickdriftvr}/input/mycontroller_legacy.json",
 	"input_bindingui_left": {
-		"image": "{simplecontroller}/icons/sample_controller.svg"
+		"image": "{stickdriftvr}/icons/sample_controller.svg"
 	},
 	"input_bindingui_right": {
-		"image": "{simplecontroller}/icons/sample_controller.svg"
+		"image": "{stickdriftvr}/icons/sample_controller.svg"
 	},
 	"input_source": {
 		"/input/a": {
